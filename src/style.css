@@ -3,11 +3,12 @@ body {
 }
 
 h1 {
-  color: #878787;
+  color: #ec6e4c;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
   margin-bottom: 0;
+  margin-top: 10px;
 }
 ul {
   margin: 0;
@@ -26,12 +27,16 @@ li::first-letter {
   text-transform: capitalize;
 }
 
-a:link {
+a {
   text-decoration: none;
+  color: #ec6e4c;
 }
-
+a:hover {
+  text-decoration: none;
+  color: #ec6e4c;
+}
 .weather-app-wrapper {
-  max-width: 500px;
+  max-width: 600px;
   margin: 30px auto;
 }
 .weather-app {
@@ -81,4 +86,12 @@ a:link {
 }
 .weather-forecast-temperature-min {
   opacity: 0.5;
+}
+.btn {
+  background: black;
+  border-color: black;
+}
+.btn:hover {
+  background: #ec6e4c;
+  border-color: #ec6e4c;
 }
